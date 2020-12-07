@@ -16,6 +16,10 @@
 		9DBBB87F257B6553001F65BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBBB87D257B6553001F65BB /* LaunchScreen.storyboard */; };
 		9DBBB889257B67CF001F65BB /* datamanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBBB888257B67CF001F65BB /* datamanager.swift */; };
 		9DBBB88E257B685D001F65BB /* NSManagesContext_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBBB88D257B685D001F65BB /* NSManagesContext_Extensions.swift */; };
+		9DC43005257DD5740051B611 /* medicineDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC43004257DD5740051B611 /* medicineDetail.swift */; };
+		9DC43008257DD8D60051B611 /* medicinelistRowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC43007257DD8D60051B611 /* medicinelistRowUIView.swift */; };
+		9DC4300B257DD96A0051B611 /* medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC4300A257DD96A0051B611 /* medicine.swift */; };
+		9DD53A7C257D9F3B005924B0 /* data_tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD53A7B257D9F3B005924B0 /* data_tasks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		9DBBB880257B6553001F65BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DBBB888257B67CF001F65BB /* datamanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datamanager.swift; sourceTree = "<group>"; };
 		9DBBB88D257B685D001F65BB /* NSManagesContext_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagesContext_Extensions.swift; sourceTree = "<group>"; };
+		9DC43004257DD5740051B611 /* medicineDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicineDetail.swift; sourceTree = "<group>"; };
+		9DC43007257DD8D60051B611 /* medicinelistRowUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicinelistRowUIView.swift; sourceTree = "<group>"; };
+		9DC4300A257DD96A0051B611 /* medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicine.swift; sourceTree = "<group>"; };
+		9DD53A7B257D9F3B005924B0 /* data_tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_tasks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 				9DBBB880257B6553001F65BB /* Info.plist */,
 				9DBBB875257B6552001F65BB /* Med_Easy.xcdatamodeld */,
 				9DBBB87A257B6553001F65BB /* Preview Content */,
+				9DD53A7B257D9F3B005924B0 /* data_tasks.swift */,
+				9DC43004257DD5740051B611 /* medicineDetail.swift */,
+				9DC43007257DD8D60051B611 /* medicinelistRowUIView.swift */,
+				9DC4300A257DD96A0051B611 /* medicine.swift */,
 			);
 			path = Med_Easy;
 			sourceTree = "<group>";
@@ -170,10 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC43005257DD5740051B611 /* medicineDetail.swift in Sources */,
 				9DBBB889257B67CF001F65BB /* datamanager.swift in Sources */,
 				9DBBB877257B6552001F65BB /* Med_Easy.xcdatamodeld in Sources */,
+				9DD53A7C257D9F3B005924B0 /* data_tasks.swift in Sources */,
 				9DBBB870257B6552001F65BB /* AppDelegate.swift in Sources */,
+				9DC43008257DD8D60051B611 /* medicinelistRowUIView.swift in Sources */,
 				9DBBB872257B6552001F65BB /* SceneDelegate.swift in Sources */,
+				9DC4300B257DD96A0051B611 /* medicine.swift in Sources */,
 				9DBBB874257B6552001F65BB /* ContentView.swift in Sources */,
 				9DBBB88E257B685D001F65BB /* NSManagesContext_Extensions.swift in Sources */,
 			);
@@ -314,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Med_Easy/Med_Easy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Med_Easy/Preview Content\"";
 				DEVELOPMENT_TEAM = DSXLT6URK6;
@@ -335,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Med_Easy/Med_Easy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Med_Easy/Preview Content\"";
 				DEVELOPMENT_TEAM = DSXLT6URK6;

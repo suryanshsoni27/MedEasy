@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="Medicine" representedClassName="Medicine" syncable="YES" codeGenerationType="class">
-        <attribute name="brandname" attributeType="String"/>
-        <attribute name="commonuse" attributeType="String"/>
-        <attribute name="genericname" attributeType="String"/>
-        <attribute name="pharmaology" attributeType="String"/>
+        <attribute name="brandname" optional="YES" attributeType="String"/>
+        <attribute name="commonuses" optional="YES" attributeType="String"/>
+        <attribute name="dateadded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="genericname" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isComplete" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="pharmacology" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Medicine" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Medicine" positionX="-63" positionY="-18" width="128" height="148"/>
     </elements>
 </model>
